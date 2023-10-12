@@ -1,0 +1,197 @@
+*{
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;  
+}
+
+body{
+    background-color: darkgray;
+    margin: 0 0 0 0 !important;
+}
+
+header {
+    background-color: darkred;
+    width: 100%;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: start;
+}
+
+.options-select {
+    float: right;
+    padding-top: 28px;
+    padding-right: 100px;
+}
+
+
+.navegation{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.card-painel {
+    display: flex;
+    width: 100%;
+    height: 1050px;
+}
+
+
+.card-login {
+    color: black;
+    margin-top: 208px;
+    height: 518px;
+    width: 450px;
+    margin-left: 120px;
+    border-radius: 5% 5% 5% 5%;
+    padding-left: 90px;
+}
+
+.card-cadastro {
+    color: black;
+    margin-top: 150px;
+    height: 518px;
+    width: 450px;
+    margin-left: 120px;
+    border-radius: 5% 5% 5% 5%;
+    padding-left: 90px;
+}
+
+.title-card {
+    display: inline-flex;
+    float: right;
+    margin-right: 244px;
+}
+
+.title-card-cadastro{
+    display: inline-flex;
+    float: right;
+    margin-right: 210px;
+}
+.content-card{
+    margin-top: 30px;
+}
+
+.content-body{
+    margin-top: 100px;
+}
+
+.card-img{
+    display: flex;
+    background-color: red;
+    width: 450px;
+    margin-left: 120px;
+    border-radius: 5% 5% 5% 5%;
+    justify-content: end;
+}
+
+.img-header{
+    width: 150px;
+    
+}
+.img-login {
+    width: 50%;
+    float: left;
+}
+.padding-right-10{
+    padding-right: 10px;
+}
+
+.width-260{
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #fff !important;
+    width: 75%;
+}
+
+.button-login {
+    cursor: pointer;
+    margin-top: 4rem;
+    height: 45px;
+    text-transform: none;
+    color: #0c0000;
+    background-color: #AF060F;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 4px 0;
+    margin-right: 30px;
+    width: 150px;
+}
+
+.button-header{
+    cursor: pointer;
+    margin-top: 2rem;
+    height: 45px;
+    text-transform: none;
+    color: #0c0000;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 4px 0;
+    margin-right: 30px;
+    width: 200x ;
+}
+
+.button-header:hover{
+    background-color: black;
+    color: #AF060F;
+}
+
+.logo-header {
+    display: inline-block;
+    margin-left: 200px;
+    padding: 0 0 5 0 !important;
+}
+
+.footer-body{
+    background-color: darkred;
+    display: flex;
+    width: 100%;
+    font-family: 'Dela Gothic One', cursive;
+    justify-content: end;
+}
+
+.footer-body-home{
+    background-color: darkred;
+    margin-top: 135px;
+    display: flex;
+    width: 100%;
+    font-family: 'Dela Gothic One', cursive;
+    justify-content: end;
+}
+
+.special-text, .special-text a {
+    margin-top: 80px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.buttons-acess{
+    display: flex;
+}
+
+.input-text{
+    color: white;
+    background-color: black !important;
+}
+
+.footer-text{
+    padding-right: 50px;
+}
